@@ -36,9 +36,9 @@ fecha DATE not null,
 id_zapatilla INT NOT NULL,
 id_empleado INT NOT NULL,
 id_cliente INT NOT NULL,
-FOREIGN KEY(id_zapatilla) REFERENCES Zapatillas(id_zapatilla) ON UPDATE
-FOREIGN KEY(id_empleado) REFERENCES Empleados(id_empleado) ON UPDATE,
-FOREIGN KEY(id_cliente) REFERENCES Clientes(id_cliente) ON UPDATE
+FOREIGN KEY(id_zapatilla) REFERENCES Zapatillas(id_zapatilla) ON UPDATE CASCADE,
+FOREIGN KEY(id_empleado) REFERENCES Empleados(id_empleado) ON UPDATE CASCADE,
+FOREIGN KEY(id_cliente) REFERENCES Clientes(id_cliente) ON UPDATE CASCADE
 );
 
 USE `tienda_zapatillas`;
