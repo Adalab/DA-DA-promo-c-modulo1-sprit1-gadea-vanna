@@ -1,1 +1,1 @@
-# DA-promo-c-modulo1-sprit1-gadea-vanna
+# DA-promo-c-modulo1-sprint1-gadea-vanna
