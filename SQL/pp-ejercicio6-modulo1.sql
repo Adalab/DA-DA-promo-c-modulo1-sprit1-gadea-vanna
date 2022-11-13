@@ -27,7 +27,7 @@ SELECT distinct order_id
 FROM order_details
 ORDER BY order_id ASC
 LIMIT 2;
-# ERROR (sales 2 ID iguales
+# ERROR (sales 2 ID iguales)
 
 /* Los tres pedidos que han supuesto el mayor coste económico para la empresa.
 Calcularlo y darle el alias ImporteTotal*/
