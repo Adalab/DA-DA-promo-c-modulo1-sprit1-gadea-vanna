@@ -32,7 +32,6 @@ nulo.
 ALTER TABLE Clientes
 modify column pais varchar(45); */
 
-
 ALTER TABLE facturas
 ADD column totales FLOAT;
 
